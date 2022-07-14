@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
 import { Grid, Paper, Avatar, TextField, Button, Typography, Link } from '@mui/material'
-// import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-// import FormControlLabel from '@material-ui/core/FormControlLabel';
-// import Box from '@mui/material/Box';
 import { useDispatch } from "react-redux";
 import { isObject } from "lodash";
 import { useHistory } from "react-router-dom";
