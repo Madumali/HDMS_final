@@ -1,0 +1,16 @@
+.main-footer {
+  color: white;
+  background-color: #3575dc;
+  padding-top: 0em;
+  position: relative;
+  bottom: -10;
+  width: 100%;
+}
+.page-container {
+  display: flex;
+  /* margin-top: 60; */
+  height: 45vh;
+}
+.content-wrap {
+  flex: 2;
+}
