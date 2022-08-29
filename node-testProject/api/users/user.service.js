@@ -42,6 +42,7 @@ async function authentication({ username, user_password }) {
   try {
     const conn = await db_connection();
     const response = await verifySUser(conn, username, user_password);
+    console.log("userrequest",response);
     hashedPass = await bcrypt.hash(response.user_password,10);
     actualPass = bcrypt.compareSync(user_password, response.user_password);
     if (response) 

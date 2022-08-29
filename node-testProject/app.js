@@ -4,6 +4,7 @@ const app = express();  //initialize express
 const cors = require("cors");
 const morgan = require("morgan");
 const jwt = require("./_helpers/jwt");
+
 const errorHandler = require("./_helpers/error-handler");
 const usertRoutes = require("./api/users/user.controller");
 const departmentRoutes = require("./api/department/department.controller");

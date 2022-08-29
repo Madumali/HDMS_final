@@ -86,7 +86,7 @@ const classes = useStyles();
   };
 
   const userLogin = (user, resetForm) => {
-
+// console.log("vals",user)
     fetch("http://localhost:4000/system-user/authenticate",{
       method: "POST",
       headers: {

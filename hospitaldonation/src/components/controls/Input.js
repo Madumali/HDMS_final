@@ -25,7 +25,6 @@ export default function Input(props) {
           placeholder={placeholder}
           value={value}
           onChange={onChange}
-          // defaultValue={defaultValue}
           {...other}
           {...(error && {error:true,helperText:error})}
           InputProps={{
@@ -38,7 +37,6 @@ export default function Input(props) {
           ): null
             }}
             inputProps={{
-              // style: {textTransform: "uppercase"},
             }}
             variant ="outlined"
       />
